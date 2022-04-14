@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "include/Game.h"
+#include "../include/Game.h"
 
 using namespace std;
 
@@ -32,7 +32,7 @@ vector<string> split(string str, char delim)
 
 int main() { 
     //Get the initial values from the file
-    ifstream myReadFile("CONFIG.TXT");
+    ifstream myReadFile("files/CONFIG.TXT");
     
     //GET WINNER POINTS
     string line; // definir a variavel line do tipo string
@@ -101,7 +101,5 @@ int main() {
         game.playRound();
     }
 
-    //Run game
-    //runGame(); blablabla
 	return 0;
 }

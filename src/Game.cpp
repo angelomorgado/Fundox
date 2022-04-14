@@ -36,6 +36,7 @@ vector<string> Game::getValidWordsFromFile(string fileName)
 
 	fileName.erase(std::remove(fileName.begin(), fileName.end(), '\n'), fileName.end());
 	fileName.erase(fileName.size() - 1);
+	fileName = "files/" + fileName;
 
 	vector<string> validWordsList;
 	string line;
@@ -157,7 +158,7 @@ void Game::showScoreboard()
 	
 	for (int i = 0; i < playerQuantity; i++)
 	{
-		//p�r cor
+		//colocar cor
 		cout << playerList.at(i).getName() << ": " + to_string(playerList.at(i).getScore());
 
 		if (playerList.at(i).getGiveUp())
