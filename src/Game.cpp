@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include <set>
-#include "Game.h"
+#include "../include/Game.h"
 
 using namespace std;
 
