@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include <set>
-#include "../include/Board.h"
+#include "Board.h"
 
 using namespace std;
 // The vect here is a copy of vect in main()

@@ -3,7 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <set>
-#include "../include/Rack.h"
+#include "Rack.h"
 
 using namespace std;
 
